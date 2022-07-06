@@ -16,6 +16,7 @@
 _______________________________________________________
 Скрипт зарускается командой в консоли `..\avito_get_number.py`.
 Для получения номера телефона потребуется ввести ссылку на объявление:
-![image](https://user-images.githubusercontent.com/106872149/177568953-d8bf180e-3a12-450f-bde0-2b6bcc4ed5c3.png)
+
+![image](https://user-images.githubusercontent.com/106872149/177570627-1cd35c73-8637-47b6-a7b3-8af4ae90abc2.png)
 
 
