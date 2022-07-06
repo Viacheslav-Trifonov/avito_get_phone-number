@@ -7,9 +7,13 @@ from PIL import Image
 import base64
 import os
 
-pytesseract.pytesseract.tesseract_cmd = r'D:\Tesseract-OCR\tesseract.exe'
+print('Укажите расположение файла tesseract.exe:')
+tess_path = str(input())
+pytesseract.pytesseract.tesseract_cmd = tess_path
 
-link = "https://www.avito.ru/moskva/komnaty/koyko-mesto_165m_v_4-k._1022et._1900668254"
+print('Введите ссылку на объявление: ')
+link = str(input())
+print('Получение номера...')
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-ssl-errors')
